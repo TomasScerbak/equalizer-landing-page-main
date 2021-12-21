@@ -1,0 +1,57 @@
+/* Typography */
+html {
+  font-size: 62.5%;
+}
+body {
+  line-height: 1.5;
+  font-family: var(--ff-bai-jamjuree);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+  --cyan-color: #66e2dc;
+  --light-red-color: #fa7453;
+  --light-orange-color: #ffb964;
+  --white-color: #fcfaf9;
+  --dark-blue-color: #191826;
+
+  --ff-bai-jamjuree: "Bai Jamjuree", sans-serif;
+}
+h1 {
+  font-size: 4rem;
+  letter-spacing: -1px;
+  font-weight: 600;
+}
+h2 {
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+p {
+  font-size: 1.6rem;
+}
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 6.4rem;
+  }
+  p {
+    font-size: 1.8rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  h1 {
+    font-size: 8.8rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+}
+/* Images */
+img {
+  width: 100%;
+}
