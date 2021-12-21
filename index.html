@@ -14,20 +14,42 @@
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
     <title>Frontend Mentor | Equalizer landing page</title>
   </head>
   <body>
-    <h1>We make your music sound extraordinary.</h1>
+    <picture class="background--images">
+      <source media="(min-width: 1400px)" srcset="Images/bg-main-desktop.png" />
+      <source media="(min-width: 760px)" srcset="Images/bg-main-tablet.png" />
+      <source media="(min-width: 370px)" srcset="Images/bg-main-mobile.png" />
+      <img
+        src="Images/bg-main-mobile.png"
+        alt="background image of blurred colored circles"
+      />
+    </picture>
 
-    <p>
-      A system audio equalizer specifically designed for Android and iOS. Freely
-      tune the way your music sounds with a professional grade parametric EQ &
-      volume mixer. Control bass, mids, treble, gain control, reverb, and more!
-    </p>
+    <header>
+      <div class="logo">
+        <img class="logo--image" src="Images/logo.svg" alt="logo image" />
+      </div>
+      <h1 class="heading">We make your music sound extraordinary.</h1>
+      <p class="heading--text">
+        A system audio equalizer specifically designed for Android and iOS.
+        Freely tune the way your music sounds with a professional grade
+        parametric EQ & volume mixer. Control bass, mids, treble, gain control,
+        reverb, and more!
+      </p>
+      <img
+        src="Images/bg-pattern-1.svg"
+        alt="colored image that serves as background decoration"
+        class="header--image"
+      />
+    </header>
 
     <h2>Premium EQ</h2>
 
