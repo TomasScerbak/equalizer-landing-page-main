@@ -107,6 +107,10 @@ img {
 .heading {
   margin-bottom: 2rem;
 }
+.bg-pattern {
+  position: absolute;
+  visibility: hidden;
+}
 @media screen and (min-width: 700px) {
   header {
     padding: 3.9rem;
@@ -120,6 +124,14 @@ img {
   }
   .heading--text {
     max-width: 51.4rem;
+  }
+  .bg-pattern {
+    position: absolute;
+    visibility: visible;
+    top: -2%;
+    right: -5%;
+    width: 25rem;
+    height: 43rem;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -157,12 +169,32 @@ img {
 .section--background-image {
   margin: 0 4.5rem 0 4.5rem;
 }
+@media screen and (min-width: 760px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60rem;
+    margin: 15rem 3.5rem 0 3.5rem;
+  }
+  .mobile__image {
+    width: 27rem;
+    height: 55rem;
+  }
+  .mobile--image {
+    top: 70%;
+    left: 10%;
+  }
+}
 /* Card */
 .card {
+  position: absolute;
+  bottom: -55%;
   border-radius: 10px;
   background-color: var(--light-red-color);
   padding: 0 3.7rem 0 3.7rem;
   color: var(--white-color);
+  width: 37.5rem;
 }
 .card--heading {
   padding-top: 4.8rem;
@@ -187,6 +219,13 @@ img {
 .card--footer {
   display: flex;
   flex-direction: column;
+}
+@media screen and (min-width: 760px) {
+  .card {
+    bottom: -60%;
+    right: 10%;
+    width: 40rem;
+  }
 }
 /* Footer */
 footer {
