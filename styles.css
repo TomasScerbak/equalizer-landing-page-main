@@ -324,6 +324,6 @@ footer {
   }
   .footer--media {
     grid-row: 1;
-    padding: 0 0 7rem 26rem;
+    padding: 0 0 7rem 25rem;
   }
 }
