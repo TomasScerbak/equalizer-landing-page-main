@@ -56,6 +56,10 @@ p {
 img {
   width: 100%;
 }
+/* Colored Circles on Background */
+picture {
+  position: absolute;
+}
 /* Buttons */
 .btn {
   display: flex;
@@ -326,4 +330,9 @@ footer {
     grid-row: 1;
     padding: 0 0 7rem 25rem;
   }
+}
+.facebook:hover,
+.instagram:hover,
+.twitter:hover {
+  filter: invert(0.4) sepia(1);
 }

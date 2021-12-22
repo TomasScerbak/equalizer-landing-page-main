@@ -23,9 +23,19 @@
     <title>Frontend Mentor | Equalizer landing page</title>
   </head>
   <body>
+    <picture>
+      <source media="(min-width: 900px)" srcset="Images/bg-main-desktop.png" />
+      <source media="(min-width: 700px)" srcset="Images/bg-main-tablet.png" />
+      <source media="(min-width: 480px)" srcset="Images/bg-main-mobile.png" />
+      <img src="Images/bg-main-mobile.png" alt="IfItDoesntMatchAnyMedia" />
+    </picture>
     <header>
       <div class="bg-pattern">
-        <img src="/Images/bg-pattern-1.svg" alt="" class="decoration" />
+        <img
+          src="Images/bg-pattern-1.svg"
+          alt="bacground decoration"
+          class="decoration"
+        />
       </div>
       <div class="header-container">
         <div class="logo">
