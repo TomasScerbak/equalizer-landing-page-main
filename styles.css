@@ -221,7 +221,7 @@ picture {
   background-color: var(--light-red-color);
   padding: 0 3.7rem 0 3.7rem;
   color: var(--white-color);
-  width: 36rem;
+  width: 37.5rem;
 }
 .card--heading {
   padding-top: 4.8rem;
@@ -263,7 +263,6 @@ picture {
 }
 /* Footer */
 footer {
-  margin-top: 60rem;
   padding: 0 2.4rem 0 2.4rem;
 }
 .footer__logo {
